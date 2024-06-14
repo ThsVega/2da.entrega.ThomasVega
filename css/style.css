@@ -8,7 +8,7 @@
         margin: 0px 5px 0px 5px;
     }    
     .introduccion{
-        margin: 40px 10px;
+        margin: 10px;
     }
     .introduccion-p{
         font-size: 100%;
@@ -24,7 +24,6 @@
         width: 100%;     
     }
     .grid-container{
-        margin: 20px;
         grid-template-rows: repeat(4, 150px);
     }    
     grid-container p {
@@ -38,7 +37,6 @@
     }      
     .grid-container-mis-productos{
         display: grid;
-        margin: 20px;
         grid-template-columns: 0% 45% 10% 45% 0%;
         grid-template-rows: 100px 100px 10px 100px 100px 10px 100px 100px 10px ;
     }
@@ -64,7 +62,6 @@
         width: 400px;    
     }
     .grid-container{
-        margin: 40px;
         grid-template-rows: repeat(4, 70px);
     }   
     footer a img{
@@ -72,7 +69,6 @@
     }       
     .grid-container-mis-productos{
         display: grid;
-        margin: 20px;
         grid-template-columns: 15% 30% 10% 30% 15%;
         grid-template-rows: 150px 150px 20px 150px 150px 20px 150px 150px 20px ;
     }
@@ -92,7 +88,6 @@
         width: 400px;    
     }
     .grid-container{
-        margin: 40px;
         grid-template-rows: repeat(4, 70px);
     }  
     footer a img{
@@ -100,7 +95,6 @@
     }    
     .grid-container-mis-productos{
         display: grid;
-        margin: 20px;
         grid-template-columns: 15% 30% 10% 30% 15%;
         grid-template-rows: 300px 300px 20px 300px 300px 20px 300px 300px 20px ;
     }
@@ -161,9 +155,11 @@ a{
     border-style: solid;
     border-color: #37627B;
 }
+.productos{
+    padding: 10px;
+}
 .productos-container{
     display: flex;
-    margin: 30px;
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
@@ -319,6 +315,7 @@ a{
 }
 .contactos{
     text-align: center;
+    padding: 20px;
 }
 .contactos a img{
     height:80px;
