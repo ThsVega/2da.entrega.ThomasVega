@@ -1,0 +1,13 @@
+@mixin medida-imagenes($alto, $ancho){
+    height: $alto;
+    width: $ancho;
+}
+@mixin fotos-grid($d, $ancho, $maximo-altura){
+    display:$d;
+    width:$ancho;
+    max-height:$maximo-altura;
+}
+@mixin alineamiento($alineado, $posicion){
+    align-self: $alineado;
+    justify-self: $posicion;
+}

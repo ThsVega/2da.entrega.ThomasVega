@@ -1,0 +1,93 @@
+@media only screen and (max-width:480px){ 
+    .navbar-div{
+        margin: 0px 5px 0px 5px;
+    }    
+    .introduccion{
+        margin: 10px;
+    }
+    .introduccion-p{
+        font-size: 100%;
+    }    
+    .introduccion-img{
+        width:100%;
+    } 
+    .mapa-footer{
+        width:100%;
+    }
+    .productos-container div{
+        @include medida-imagenes(400px, 100px)
+    }
+    .grid-container{
+        grid-template-rows: repeat(4, 150px);
+    }    
+    grid-container p {
+        font-size: small;
+    }
+    grid-container h3 {
+        font-size: small;
+    }
+    footer a img{
+        height:50px;
+    }      
+    .grid-container-mis-productos{
+        display: grid;
+        grid-template-columns: 0% 45% 10% 45% 0%;
+        grid-template-rows: 100px 100px 10px 100px 100px 10px 100px 100px 10px ;
+    }
+    .only-desktop{
+        display: none;
+    }
+}
+@media only screen and (min-width:481px) and (max-width:768px){  
+    .navbar-div{
+        margin: 0px 10px 0px 50px;
+    }    
+    .introduccion{
+        margin: 50px;
+    }
+    .introduccion-p{
+        font-size: 100%;
+    }    
+    .introduccion-img{
+        width:100%;
+    }
+    .productos-container div{
+        @include medida-imagenes(400px, 400px)
+    }
+    .grid-container{
+        grid-template-rows: repeat(4, 70px);
+    }   
+    footer a img{
+        height:100px;
+    }       
+    .grid-container-mis-productos{
+        display: grid;
+        grid-template-columns: 15% 30% 10% 30% 15%;
+        grid-template-rows: 150px 150px 20px 150px 150px 20px 150px 150px 20px ;
+    }
+}
+@media only screen and (min-width:769px){  
+    .navbar-div{
+        margin: 0px 10px 0px 50px;
+    }    
+    .introduccion{
+        margin: 50px;
+    }
+    .introduccion-p{
+        font-size: xx-large;
+    }    
+    .productos-container div{
+        @include medida-imagenes(400px, 400px)
+    }
+    .grid-container{
+        grid-template-rows: repeat(4, 70px);
+    }  
+    footer a img{
+        height:100px;
+    }    
+    .grid-container-mis-productos{
+        display: grid;
+        grid-template-columns: 15% 30% 10% 30% 15%;
+        grid-template-rows: 300px 300px 20px 300px 300px 20px 300px 300px 20px ;
+    }
+}
