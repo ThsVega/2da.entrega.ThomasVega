@@ -99,33 +99,6 @@
         grid-template-rows: 300px 300px 20px 300px 300px 20px 300px 300px 20px ;
     }
 }
-ul{
-    list-style-type: none;
-}
-h1{
-    color: #37627B;
-    text-align: center;
-    margin-top: 20px;
-}
-h2{
-    color: #37627B;
-    text-align: center;
-}
-h3{
-    color: #37627B;
-    text-align: center;
-}
-h4{
-    color: #37627B;
-    text-align: center;
-}
-p{
-    text-align: center;
-}
-a{
-    text-decoration: none;
-    color: #37627B;
-}
 .navbar{
     background-color: #fff3e4;
 }
