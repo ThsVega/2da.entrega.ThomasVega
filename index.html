@@ -5,6 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- BS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <!-- AOS -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- Animate -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>        
         <!-- CSS -->
             <link rel="stylesheet" href="./css/main.css">
         <!-- Fonts -->
@@ -41,13 +45,13 @@
             </nav>
         </header>
         <main>
-            <h1>Bienvenidos a Cafeteria Chimi</h1>
+            <h1 class="animate__animated animate__bounce">Bienvenidos a Cafeteria Chimi</h1>
             <section class="introduccion">
                 <p class="introduccion-p">ELLA LLEVA A CABO LA EMPRESA <br> Y TOMA LAS DECISIONES <br>IMPORTANTES RESPECTO AL FUTURO <br> DE NUESTRO EMPRENDIMIENTO</p>
                 <img class="introduccion-img" src="assets/chimi.cafeteria.2.png" alt="Chimi">
             </section>
             <section class="productos">
-                <h2>NUESTROS PRODUCTOS</h2>
+                <h2 data-aos="zoom-in">NUESTROS PRODUCTOS</h2>
                 <div class="productos-container">
                     <div class="productos-img1">
                         <h4>CAFE CHIMI</h4>
@@ -65,7 +69,7 @@
             </section>
         </main>
         <aside class="contactos">
-            <h3>REDES SOCIALES</h3>
+            <h3 data-aos="zoom-in">REDES SOCIALES</h3>
             <section class="grid-container">
                 <div class="grid-item whatsapp">
                     <a href="https://www.whatsapp.com/"><img src="./assets/whatsapp-logo.png" alt="whatsapp-logo">   WHATSAPP</a>
@@ -105,5 +109,9 @@
             </div>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>

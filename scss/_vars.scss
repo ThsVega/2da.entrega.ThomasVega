@@ -2,4 +2,14 @@ $font-principal: "Montserrat", sans-serif;
 $color-primario: #37627B;
 $color-secundario: #92b2c4;
 $color-fondo: #739ab1;
-$color-fondo-navbar: #fff3e4;       
+$color-fondo-navbar: #fff3e4;
+$img-sizes:(
+    s: 100px,
+    m: 200px,
+    l: 400px,
+);
+@each $ancho-img, $pxls in $img-sizes{
+    .img-#{$ancho-img}{
+        height: $pxls;
+    }
+}
