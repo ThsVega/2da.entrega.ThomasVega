@@ -1,2 +1,2 @@
 # CAFETERIA CHIMI
-## Proyecto perteneciente al alumno Vega Thomas, perteneciente al curso de CoderHouse
+## Proyecto perteneciente al alumno Vega Thomas, realizado en el curso de CoderHouse

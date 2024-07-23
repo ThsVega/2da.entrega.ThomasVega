@@ -134,7 +134,7 @@ a{
 }
 .grid-container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 5fr);
 }
 .whatsapp{
     @include alineamiento(center, center);
@@ -180,16 +180,23 @@ a{
 .contactos{
     text-align: center;
     padding: 20px;
+    height:150px; 
     a img{
     height:80px; 
+    margin: 200px;
     }
 }
 .sucursales{
     text-align: center;
+    height: 300px;
 }
 .preguntas{
     text-align: center;
     form{
         height: 160px;
     }
+}
+.mapa-sucursales{
+    width:"100%";
+    height:"800";
 }

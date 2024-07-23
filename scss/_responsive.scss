@@ -15,7 +15,7 @@
         width:100%;
     }
     .productos-container div{
-        @include medida-imagenes(400px, 100px)
+        @include medida-imagenes(400px, 400px)
     }
     .grid-container{
         grid-template-rows: repeat(4, 150px);
@@ -64,6 +64,9 @@
         display: grid;
         grid-template-columns: 15% 30% 10% 30% 15%;
         grid-template-rows: 150px 150px 20px 150px 150px 20px 150px 150px 20px ;
+    }
+    .only-desktop{
+        display: none;
     }
 }
 @media only screen and (min-width:769px){  
